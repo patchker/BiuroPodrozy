@@ -1,0 +1,538 @@
+body {
+    background-color:#F4F3F8;
+    background-size: 100%, 100%;
+    color: white;
+    font-family: "Helvetica", sans-serif;
+    margin:0;
+}
+
+#container {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    width: 20%;
+    height: 75px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-top:25px;
+
+    border-bottom:2px solid lightgray;
+}
+
+#logo img {
+    height: 50px;
+
+    margin-left: 50px;
+
+
+
+}
+
+#menu {
+
+    width: 80%;
+    height: 100px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.05);
+
+    border-bottom:2px solid lightgray;
+}
+
+#content_login {
+    width: 100%;
+    height: auto;
+    margin-left: 37%;
+    margin-top: 5%;
+    padding-bottom: 80px;
+    float: left;
+    color: white;
+}
+
+#site_href {
+    background-color: #3C56F5;
+    width: 70%;
+    height: 100px;
+    margin-left: 50px;
+    border:1px solid black;
+    border-radius: 10px;
+    color:white;
+    font-size:150%;
+
+
+}
+#site_href:hover
+{
+    cursor: pointer;
+}
+
+
+#content {
+
+    height: auto;
+
+    padding-bottom: 80px;
+    float: left;
+    color: black;
+
+    margin-left: 15%;
+    margin-right:25%;
+    width: 85%;
+
+
+}
+#content2 {
+    padding-top:50px;
+width:85%;
+
+    height: auto;
+
+
+    float: left;
+    color: black;
+
+
+
+
+
+
+
+}
+
+#footer {
+    float:right;
+    margin-top:170px;
+    margin-right: 20px;
+
+    color:black;
+    font-weight: bold;
+}
+#menu ul {
+    list-style-type: none;
+    display: inline;
+    float: left;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+    background-color: #3C56F5;
+    border-radius: 5px;
+}
+
+.tekst {
+    text-align: left;
+
+    width: 100%;
+    float: left;
+
+    margin-left:30px;
+    color:grey;
+    padding-bottom: 2px;
+font-size: 14px;
+
+
+
+}
+.tekst2 {
+    text-align: left;
+
+    width: 100px;
+    float: left;
+
+    margin-left:30px;
+    color:grey;
+    padding-bottom: 2px;
+    font-size: 14px;
+
+
+
+}
+
+.pole {
+    float: left;
+
+    padding-bottom: 20px;
+    padding-left:30px;
+    word-wrap: break-word;
+    max-width: 300px;
+}
+.editicon
+{
+    float: left;
+
+    padding-bottom: 20px;
+
+
+
+}
+
+
+h1 {
+    padding-left: 30px;
+}
+
+.czerwony {
+    color: red;
+}
+
+#button1 {
+    margin-left: 195px;
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+}
+
+#phaslo {
+    margin-top: 70px;
+    padding-top: 80px;
+}
+
+.pole input {
+    width: 200px;
+    height: 30px;
+
+}
+
+#button2 {
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.info {
+    text-align: left;
+    width: 100px;
+    float: left;
+    margin-left: -20px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+.login {
+
+    margin-left: 70px;
+}
+
+#errr {
+    margin-left: 110px;
+    color: red;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.green {
+    color: lightgreen;
+}
+td
+{
+
+width:auto;
+    text-align: center;
+}
+table
+{
+    color:black;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:100%;
+
+
+
+
+
+}
+table thead tr {
+    background-color: #3C56F5;
+    color: #ffffff;
+    text-align: left;
+
+
+}
+table th,
+table td {
+    padding: 12px 15px;
+    border-right:1px solid #adadad;
+    max-width: 600px;
+    overflow-wrap:break-word;
+    width:50px;
+}
+
+table td:first-child {
+    padding: 0;
+width:150px;
+
+
+}
+table td img:hover {
+ opacity: 0.5;
+}
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+
+}
+
+table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #3C56F5;
+}
+table tbody tr:hover
+{
+    background-color: lightgrey;
+
+    cursor: pointer;
+}
+
+.pole input
+{
+    width:200px;
+    font-weight: bold;
+}
+
+.back
+{
+    width:160px;
+    height:30px;
+    background-color: #3C56F5;
+    border:0;
+    color:white;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.fa-check {
+
+
+    color:black;
+    height:23px;
+    padding-top:7px;
+    border:0;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.editicon button
+{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    margin-left:7px;
+}
+.fa-gear
+{
+
+    width:40px;
+    color:black;
+    height:20px;
+    padding-top:7px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 15px;
+}
+.editeduserinput
+{
+    width:50px;
+}
+#tripedit
+{
+    float:left;
+    width:500px;
+}
+.tripimage
+{
+    width:300px;
+    float:left;
+
+
+}
+.tripimage img
+{
+    width:300px;
+    border-radius: 7px;
+}
+
+#opistextbox
+{
+    height:100px;
+    width:200px;
+}
+.opis
+{
+    word-break: break-word;
+    width:200px;
+}
+.tede
+{
+    padding-right:30px;
+    border-collapse: collapse;
+    padding:5px;
+    border:2px solid grey;
+
+
+}
+#ordersTab
+{
+    color:black;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:40%;
+
+}
+#ordersTab img
+{
+    width:200px;
+}
+#ordersTab tbody tr:hover
+{
+    background-color: #f3f3f3;
+    cursor: default;
+
+
+}
+#ordersTab tbody img:hover
+{
+    opacity: 100%;
+}
+#ordersTab2
+{
+    color:black;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width:30%;
+
+
+
+}
+#ordersTab2 img
+{
+    width:200px;
+}
+#ordersTab2 tbody tr:hover
+{
+    background-color: #f3f3f3;
+    cursor: default;
+
+
+}
+#ordersTab2 tbody img:hover
+{
+    opacity: 100%;
+}
+.homebox1
+{
+    width:20%;
+    height:auto;
+    float:left;
+    padding:10px;
+
+
+}
+.homebox2
+{
+    width:35%;
+    height:auto;
+    float:left;
+    padding:10px;
+
+
+}
+.homebox3
+{
+    width:45%;
+    height:auto;
+    float:left;
+    padding:10px;
+    margin-left:60px;
+
+
+margin-bottom:100px;
+}
+.homebox4
+{
+    padding-top:40px;
+    width:70%;
+    height:220px;
+    float:left;
+
+
+
+}
+#ordersTab td
+{
+    min-width: 75px;
+    width:auto;
+}
+#ordersTab2 td
+{
+    height: auto;
+    min-width: 60px;
+    width:auto;
+}
+
+#listakafelkow
+{
+    margin-left:25%;
+    margin-top:10%;
+list-style-type: none;
+    color:white;
+
+}
+#listakafelkow li
+{
+    margin-bottom: 20px;
+
+}
+
+.kafelek
+{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #3C56F5;
+    width:200px;
+    height:70px;
+    border-radius: 7px;
+}
+.kafelek:hover
+{
+    cursor: pointer;
+}
+textarea
+{
+    width:200px;
+    height:100px;
+}
+
+
+
+
+
+
+
+
