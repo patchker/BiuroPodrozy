@@ -15,4 +15,4 @@ Our travel office portal is designed to streamline the booking process and provi
 <b>Travel Guides and Tips</b>: Access to extensive travel guides and tips to help users prepare for their trips.
 
 <h3>Tech Stack</h3>
-This project is developed using PHP, JavaScript, CSS (Styled Components), and HTML5 for the front-end.
+This project is developed using PHP, JavaScript, CSS, and HTML5 for the front-end.
